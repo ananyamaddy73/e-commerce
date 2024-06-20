@@ -1,5 +1,5 @@
 const db=require('../databaseConfig.js')
-
+//this is save Controller
 exports.saveData=(req,res)=>{
     let productBrand =req.body.productBrand
     let productType =req.body.productType
